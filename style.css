@@ -1,0 +1,212 @@
+body{
+    background-color:#a9a9a9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+#title{
+    background-color: #646464;
+    width: 1000px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 105px;
+    font-weight: bolder;
+}
+
+#title img{
+    max-width: 75px;
+    width: 8.5%;
+}
+
+#subtitle{
+    background-color: #3d3d3d;
+    width: 1000px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 5px 20px 5px 20px;
+    color: #a9a9a9;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 24px;
+}
+
+#img-div{
+    background-color: #3d3d3d;
+    width: 80%;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 0 20px 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+}
+
+#image{
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;     
+    border-bottom: 2px solid  #a9a9a9;
+    border-right: 2px solid  #a9a9a9;
+    border-left: 2px solid  #a9a9a9;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#img-caption{
+    max-width: 100%;
+    width: 80%;
+    background-color: #a9a9a9;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px auto;
+}
+
+#tribute-info{
+    background-color: #646464;
+    width: 1000px;
+    max-width: 80%;
+    margin: 40px auto;
+    text-align: center;  
+    padding: 20px; 
+    text-align: justify;
+    border-radius: 25px;
+}
+#tribute-info p{
+    margin: 0;
+}
+#tribute-info h2{
+    padding: 20px 0 2px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #41030f;
+    margin: 0;
+}
+#art1{
+    float: left;
+    margin: 20px 20px 0px 0;
+}
+#art1 img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+#art2 img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+#art2{
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+#art_cap{
+    background-color: #a9a9a9;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+#tribute-info #link{
+    text-align: center;
+}
+footer{
+    position: relative;
+    width: 1000px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+}
+footer img{
+    max-width: 800px;
+    background-color:#a9a9a9;
+    margin: 0 auto;
+    width: 80%;
+}
+footer p{
+    position: absolute;
+
+    bottom: 10%;
+    right: 31%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1150px){
+    #title{
+        font-size: 80px;
+    }
+    #tribute-info h2{
+
+        font-size: 28px;
+
+    }
+}
+@media screen and (max-width: 860px){
+        #title{
+        font-size: 60px;
+    }
+    #subtitle{
+        font-size: 22px;
+    }
+    #tribute-info h2{
+
+        font-size: 22px;
+
+    }
+}
+@media screen and (max-width: 760px){
+    #tribute-info h2{
+        text-align: center;
+    }
+    #art1, #art2{
+    float: none;
+    text-align: center;
+    
+}
+#art_cap{
+
+    width: 69%;
+}
+footer p{
+    position: static;
+    text-align: center;
+}
+}
+@media screen and (max-width: 645px){
+
+    #title{
+        font-size: 45px;
+    }
+    #subtitle{
+        font-size: 18px;
+    }
+    #tribute-info h2{
+
+        font-size: 22px;
+
+    }
+}
+@media screen and (max-width: 485px){
+#title{
+        font-size: 36px;
+    }
+    #subtitle{
+        font-size: 16px;
+    }
+    #tribute-info h2{
+
+        font-size: 20px;
+
+    }
+
+}

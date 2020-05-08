@@ -110,7 +110,7 @@ body{
     margin: 0 0 20px 20px;
 }
 
-#art_cap{
+#art_cap1, #art_cap2{
     background-color: #D2D2D2;
     width: 100%;
     padding: 10px 0;
@@ -129,8 +129,7 @@ footer{
     z-index: 2;
 }
 footer img{
-    max-width: 800px;
-  
+    max-width: 800px; 
     margin: 0 auto;
     width: 80%;
 }

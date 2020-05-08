@@ -1,12 +1,12 @@
 body{
-    background-color:#a9a9a9;
+    background-image: url(img/grey-brick-texture.jpg);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     font-size: 18px;
 }
 
 #title{
-    background-color: #646464;
+    background-color: #3d0202;
     width: 1000px;
     max-width: 80%;
     margin: 0 auto;
@@ -14,20 +14,22 @@ body{
     text-align: center;
     font-size: 105px;
     font-weight: bolder;
+    color: #a6a6a6;
 }
 
 #title img{
     max-width: 75px;
     width: 8.5%;
+    color: #a6a6a6;
 }
 
 #subtitle{
-    background-color: #3d3d3d;
+    background-color: #1f0606;
     width: 1000px;
     max-width: 80%;
     margin: 0 auto;
     padding: 5px 20px 5px 20px;
-    color: #a9a9a9;
+    color: #D2D2D2;
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -52,23 +54,23 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: block;     
-    border-bottom: 2px solid  #a9a9a9;
-    border-right: 2px solid  #a9a9a9;
-    border-left: 2px solid  #a9a9a9;
+    border-bottom: 2px solid  #D2D2D2;
+    border-right: 2px solid  #D2D2D2;
+    border-left: 2px solid  #D2D2D2;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 #img-caption{
     max-width: 100%;
     width: 80%;
-    background-color: #a9a9a9;
+    background-color: #D2D2D2;
     padding: 10px;
     border-radius: 25px;
     margin: 10px auto;
 }
 
 #tribute-info{
-    background-color: #646464;
+    background-color: #3d0202;
     width: 1000px;
     max-width: 80%;
     margin: 40px auto;
@@ -79,12 +81,13 @@ body{
 }
 #tribute-info p{
     margin: 0;
+    color: #a6a6a6;
 }
 #tribute-info h2{
     padding: 20px 0 2px 0;
     font-size: 36px;
     font-weight: bolder;
-    color: #41030f;
+    color: #a6a6a6;
     margin: 0;
 }
 #art1{
@@ -108,7 +111,7 @@ body{
 }
 
 #art_cap{
-    background-color: #a9a9a9;
+    background-color: #D2D2D2;
     width: 100%;
     padding: 10px 0;
     margin: 0 auto;
@@ -119,7 +122,6 @@ body{
     text-align: center;
 }
 footer{
-    position: relative;
     width: 1000px;
     max-width: 80%;
     margin: 0 auto;
@@ -128,20 +130,28 @@ footer{
 }
 footer img{
     max-width: 800px;
-    background-color:#a9a9a9;
+  
     margin: 0 auto;
     width: 80%;
 }
 footer p{
-    position: absolute;
-
-    bottom: 10%;
-    right: 31%;
+    background-color: #1f0606;
     margin: 0 auto;
     text-align: center;
+    color: #a6a6a6;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+a:hover{
+    color: darkkhaki;
+}
+a{
+    text-decoration: none;
+    color: #D2D2D2;
 }
 
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1150px){   /*  /////// Screen Size //////// */
     #title{
         font-size: 80px;
     }
